@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731D95342C5FD5CF00787DB8 /* TriceraCastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D95332C5FD5CF00787DB8 /* TriceraCastApp.swift */; };
+		731D95362C5FD5CF00787DB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D95352C5FD5CF00787DB8 /* ContentView.swift */; };
+		731D95382C5FD5D100787DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731D95372C5FD5D100787DB8 /* Assets.xcassets */; };
+		731D953B2C5FD5D100787DB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731D953A2C5FD5D100787DB8 /* Preview Assets.xcassets */; };
+		731D95452C5FD5D100787DB8 /* TriceraCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D95442C5FD5D100787DB8 /* TriceraCastTests.swift */; };
+		731D954F2C5FD5D100787DB8 /* TriceraCastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D954E2C5FD5D100787DB8 /* TriceraCastUITests.swift */; };
+		731D95512C5FD5D100787DB8 /* TriceraCastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D95502C5FD5D100787DB8 /* TriceraCastUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		731D95412C5FD5D100787DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731D95282C5FD5CF00787DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731D952F2C5FD5CF00787DB8;
+			remoteInfo = TriceraCast;
+		};
+		731D954B2C5FD5D100787DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731D95282C5FD5CF00787DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731D952F2C5FD5CF00787DB8;
+			remoteInfo = TriceraCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		731D95302C5FD5CF00787DB8 /* TriceraCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriceraCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731D95332C5FD5CF00787DB8 /* TriceraCastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriceraCastApp.swift; sourceTree = "<group>"; };
+		731D95352C5FD5CF00787DB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		731D95372C5FD5D100787DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731D953A2C5FD5D100787DB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		731D95402C5FD5D100787DB8 /* TriceraCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriceraCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731D95442C5FD5D100787DB8 /* TriceraCastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriceraCastTests.swift; sourceTree = "<group>"; };
+		731D954A2C5FD5D100787DB8 /* TriceraCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriceraCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731D954E2C5FD5D100787DB8 /* TriceraCastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriceraCastUITests.swift; sourceTree = "<group>"; };
+		731D95502C5FD5D100787DB8 /* TriceraCastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriceraCastUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731D952D2C5FD5CF00787DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731D953D2C5FD5D100787DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731D95472C5FD5D100787DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		731D95272C5FD5CF00787DB8 = {
+			isa = PBXGroup;
+			children = (
+				731D95322C5FD5CF00787DB8 /* TriceraCast */,
+				731D95432C5FD5D100787DB8 /* TriceraCastTests */,
+				731D954D2C5FD5D100787DB8 /* TriceraCastUITests */,
+				731D95312C5FD5CF00787DB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		731D95312C5FD5CF00787DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				731D95302C5FD5CF00787DB8 /* TriceraCast.app */,
+				731D95402C5FD5D100787DB8 /* TriceraCastTests.xctest */,
+				731D954A2C5FD5D100787DB8 /* TriceraCastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		731D95322C5FD5CF00787DB8 /* TriceraCast */ = {
+			isa = PBXGroup;
+			children = (
+				731D95332C5FD5CF00787DB8 /* TriceraCastApp.swift */,
+				731D95352C5FD5CF00787DB8 /* ContentView.swift */,
+				731D95372C5FD5D100787DB8 /* Assets.xcassets */,
+				731D95392C5FD5D100787DB8 /* Preview Content */,
+			);
+			path = TriceraCast;
+			sourceTree = "<group>";
+		};
+		731D95392C5FD5D100787DB8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				731D953A2C5FD5D100787DB8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		731D95432C5FD5D100787DB8 /* TriceraCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				731D95442C5FD5D100787DB8 /* TriceraCastTests.swift */,
+			);
+			path = TriceraCastTests;
+			sourceTree = "<group>";
+		};
+		731D954D2C5FD5D100787DB8 /* TriceraCastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				731D954E2C5FD5D100787DB8 /* TriceraCastUITests.swift */,
+				731D95502C5FD5D100787DB8 /* TriceraCastUITestsLaunchTests.swift */,
+			);
+			path = TriceraCastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		731D952F2C5FD5CF00787DB8 /* TriceraCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731D95542C5FD5D100787DB8 /* Build configuration list for PBXNativeTarget "TriceraCast" */;
+			buildPhases = (
+				731D952C2C5FD5CF00787DB8 /* Sources */,
+				731D952D2C5FD5CF00787DB8 /* Frameworks */,
+				731D952E2C5FD5CF00787DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriceraCast;
+			productName = TriceraCast;
+			productReference = 731D95302C5FD5CF00787DB8 /* TriceraCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		731D953F2C5FD5D100787DB8 /* TriceraCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731D95572C5FD5D100787DB8 /* Build configuration list for PBXNativeTarget "TriceraCastTests" */;
+			buildPhases = (
+				731D953C2C5FD5D100787DB8 /* Sources */,
+				731D953D2C5FD5D100787DB8 /* Frameworks */,
+				731D953E2C5FD5D100787DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731D95422C5FD5D100787DB8 /* PBXTargetDependency */,
+			);
+			name = TriceraCastTests;
+			productName = TriceraCastTests;
+			productReference = 731D95402C5FD5D100787DB8 /* TriceraCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		731D95492C5FD5D100787DB8 /* TriceraCastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731D955A2C5FD5D100787DB8 /* Build configuration list for PBXNativeTarget "TriceraCastUITests" */;
+			buildPhases = (
+				731D95462C5FD5D100787DB8 /* Sources */,
+				731D95472C5FD5D100787DB8 /* Frameworks */,
+				731D95482C5FD5D100787DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731D954C2C5FD5D100787DB8 /* PBXTargetDependency */,
+			);
+			name = TriceraCastUITests;
+			productName = TriceraCastUITests;
+			productReference = 731D954A2C5FD5D100787DB8 /* TriceraCastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731D95282C5FD5CF00787DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					731D952F2C5FD5CF00787DB8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					731D953F2C5FD5D100787DB8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 731D952F2C5FD5CF00787DB8;
+					};
+					731D95492C5FD5D100787DB8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 731D952F2C5FD5CF00787DB8;
+					};
+				};
+			};
+			buildConfigurationList = 731D952B2C5FD5CF00787DB8 /* Build configuration list for PBXProject "TriceraCast" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 731D95272C5FD5CF00787DB8;
+			productRefGroup = 731D95312C5FD5CF00787DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				731D952F2C5FD5CF00787DB8 /* TriceraCast */,
+				731D953F2C5FD5D100787DB8 /* TriceraCastTests */,
+				731D95492C5FD5D100787DB8 /* TriceraCastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		731D952E2C5FD5CF00787DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D953B2C5FD5D100787DB8 /* Preview Assets.xcassets in Resources */,
+				731D95382C5FD5D100787DB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731D953E2C5FD5D100787DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731D95482C5FD5D100787DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731D952C2C5FD5CF00787DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D95362C5FD5CF00787DB8 /* ContentView.swift in Sources */,
+				731D95342C5FD5CF00787DB8 /* TriceraCastApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731D953C2C5FD5D100787DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D95452C5FD5D100787DB8 /* TriceraCastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731D95462C5FD5D100787DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D95512C5FD5D100787DB8 /* TriceraCastUITestsLaunchTests.swift in Sources */,
+				731D954F2C5FD5D100787DB8 /* TriceraCastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		731D95422C5FD5D100787DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731D952F2C5FD5CF00787DB8 /* TriceraCast */;
+			targetProxy = 731D95412C5FD5D100787DB8 /* PBXContainerItemProxy */;
+		};
+		731D954C2C5FD5D100787DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731D952F2C5FD5CF00787DB8 /* TriceraCast */;
+			targetProxy = 731D954B2C5FD5D100787DB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		731D95522C5FD5D100787DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		731D95532C5FD5D100787DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731D95552C5FD5D100787DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriceraCast/Preview Content\"";
+				DEVELOPMENT_TEAM = A728J4KFAM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triceraorg.TriceraCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731D95562C5FD5D100787DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriceraCast/Preview Content\"";
+				DEVELOPMENT_TEAM = A728J4KFAM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triceraorg.TriceraCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		731D95582C5FD5D100787DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A728J4KFAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triceraorg.TriceraCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriceraCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriceraCast";
+			};
+			name = Debug;
+		};
+		731D95592C5FD5D100787DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A728J4KFAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triceraorg.TriceraCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriceraCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriceraCast";
+			};
+			name = Release;
+		};
+		731D955B2C5FD5D100787DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A728J4KFAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triceraorg.TriceraCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriceraCast;
+			};
+			name = Debug;
+		};
+		731D955C2C5FD5D100787DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A728J4KFAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triceraorg.TriceraCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriceraCast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731D952B2C5FD5CF00787DB8 /* Build configuration list for PBXProject "TriceraCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731D95522C5FD5D100787DB8 /* Debug */,
+				731D95532C5FD5D100787DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731D95542C5FD5D100787DB8 /* Build configuration list for PBXNativeTarget "TriceraCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731D95552C5FD5D100787DB8 /* Debug */,
+				731D95562C5FD5D100787DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731D95572C5FD5D100787DB8 /* Build configuration list for PBXNativeTarget "TriceraCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731D95582C5FD5D100787DB8 /* Debug */,
+				731D95592C5FD5D100787DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731D955A2C5FD5D100787DB8 /* Build configuration list for PBXNativeTarget "TriceraCastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731D955B2C5FD5D100787DB8 /* Debug */,
+				731D955C2C5FD5D100787DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 731D95282C5FD5CF00787DB8 /* Project object */;
+}
